@@ -143,4 +143,4 @@ The **prototype** is a creational design pattern that lets you copy existing ob
 
 **When to use :**
 
-When an object is required that is similar to an existing object or when the creation would be expensive as compared to cloning.****
+When an object is required that is similar to an existing object or when the creation would be expensive as compared to cloning.
