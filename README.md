@@ -144,3 +144,21 @@ The **prototype** is a creational design pattern that lets you copy existing ob
 **When to use :**
 
 When an object is required that is similar to an existing object or when the creation would be expensive as compared to cloning.****
+
+## Structural Design Patterns ****:****
+
+**Structural design patterns** are concerned with how classes and objects can be composed, to form larger structures. These patterns focus on, how the classes inherit from each other and how they are composed of other classes.
+
+- **Adapter / Wrapper**
+
+**An Adapter pattern acts as a connector between two incompatible interfaces that otherwise cannot be connected directly.** An Adapter wraps an existing class with a new interface so that it becomes compatible with the client’s interface.
+
+- **Composite**
+
+- **Decorator**
+
+- **Facade**
+
+- **Flyweight**
+
+- **Proxy**
