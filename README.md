@@ -135,4 +135,12 @@ Person bob = builder.firstName("Bob")
 
 **Factory Method** pattern defines an interface for creating an object, but lets subclasses decide which class to instantiate.
 
-The Factory Method defines a method, which should be used for creating objects instead of using a direct constructor call (`new` operator). Subclasses can override this method to change the class of objects that will be created.
+The **Factory Method** defines a method, which should be used for creating objects instead of using a direct constructor call (`new` operator). Subclasses can override this method to change the class of objects that will be created
+
+- **Prototype**
+
+The **prototype** is a creational design pattern that lets you copy existing objects without making your code dependent on their classes by declaring a common interface for all objects that support cloning.
+
+**When to use :**
+
+When an object is required that is similar to an existing object or when the creation would be expensive as compared to cloning.****
