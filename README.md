@@ -155,7 +155,11 @@ When an object is required that is similar to an existing object or when the cre
 
 - **Composite**
 
+**Composite i**s a structural design pattern that allows composing objects into a tree-like structure and working with it as if it was a singular object.
+
 - **Decorator**
+
+**A Decorator pattern** can be used to attach additional responsibilities to an object either statically or dynamically. A Decorator provides an enhanced interface to the original object.
 
 - **Facade**
 
