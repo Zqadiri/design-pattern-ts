@@ -199,7 +199,10 @@ The **Strategy** pattern is a behavioral pattern that allows you to define a fam
 
 - **State**
 
+The **State** pattern is a behavioral pattern that enables an object to change its behavior when its internal state changes. This makes it appear as though the object has changed its class. The pattern encapsulates state-dependent behavior and separates it from the main object's code.
+
 - **Template Method**
+
 
 - **Mediator**
 
