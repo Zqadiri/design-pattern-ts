@@ -163,6 +163,48 @@ When an object is required that is similar to an existing object or when the cre
 
 - **Facade**
 
+A **facade** is a design pattern that simplifies the interface of a complex subsystem. It allows the subsystem to be used more easily by hiding its complexity behind a simpler interface. One of the key benefits of the facade pattern is that it decouples the implementation of the client from the subsystem. This means that changes made to the subsystem won't affect the client, making it easier to modify and maintain.
+
 - **Flyweight**
 
+The **flyweight pattern** reduces memory usage and can improve performance in applications where object instantiation is expensive.
+
+In essence, the flyweight pattern is based on a factory that recycles created objects by storing them after creation. Whenever an object is requested, the factory checks if it already exists. If it does, the existing object is returned. Otherwise, a new one is created, stored, and then returned.
+
 - **Proxy**
+
+**The Proxy pattern allows us to create an intermediary that acts as an interface to another resource**, while also hiding the underlying complexity of the component.
+
+**When to use it :**
+
+- Use a skeleton object, also called lazy initialization, to represent a simplified version of a complex or heavy object. This object loads the original object on demand.
+- When the original object is located in a different address space and you want to represent it locally, create a proxy object. The proxy object handles all the necessary boilerplate tasks, such as creating and maintaining the connection, encoding, decoding, etc., while the client accesses it as if it were present in their local address space. This is called the **Remote Proxy**
+- Use a proxy object to add a layer of security to the original underlying object. This provides controlled access based on the client's access rights This is called the **Protection  Proxy**
+
+
+## ****Behavioral Design Patterns:****
+
+- **Iterator**
+
+The **iterator pattern** is a type of behavioral pattern used to sequentially access the elements of a collection without exposing its underlying or internal representation. It provides a way to access and traverse the elements of a collection without revealing the internal data structures to clients.
+
+- **Observer**
+
+The **Observer** pattern is a design pattern in which an object, called the **subject**, maintains a list of its dependents, called **observers**, and notifies them automatically of any changes to its state. This allows multiple objects to be notified and updated when changes occur in the observed object without tightly coupling the objects.
+
+
+- **Strategy**
+
+The **Strategy** pattern is a behavioral pattern that allows you to define a family of algorithms, encapsulate each one, and make them interchangeable at run time. This pattern lets the algorithm vary independently from the clients that use it.
+
+- **State**
+
+- **Template Method**
+
+- **Mediator**
+
+- **Visitor**
+
+- **Chain of Responsibility**
+
+- **Memento**
