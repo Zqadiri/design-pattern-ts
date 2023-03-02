@@ -203,6 +203,7 @@ The **State** pattern is a behavioral pattern that enables an object to change i
 
 - **Template Method**
 
+The **Template Method** pattern is a behavioral pattern that defines the skeleton of an algorithm in a superclass but lets subclasses override specific steps of the algorithm without changing its structure.
 
 - **Mediator**
 
