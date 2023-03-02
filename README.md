@@ -207,8 +207,16 @@ The **Template Method** pattern is a behavioral pattern that defines the skeleto
 
 - **Mediator**
 
+The **Mediator** pattern is a behavioral pattern that defines an object that encapsulates how a set of objects interact. Instead of each object interacting with other objects directly, they interact through the mediator object. This promotes loose coupling between objects and makes it easier to modify the system over time.
+
 - **Visitor**
+
+The **Visitor** pattern is a behavioral pattern that separates an algorithm from an object structure on which it operates. It allows you to add new operations to existing object structures without modifying the structures themselves.
 
 - **Chain of Responsibility**
 
+The **Chain of Responsibility** pattern is a behavioral pattern that allows you to pass requests along a chain of objects until one of the objects handles the request. This pattern promotes loose coupling between objects and allows you to add or remove handlers dynamically.
+
 - **Memento**
+
+The **Memento** pattern is a behavioral pattern that allows you to save and restore the state of an object without revealing its implementation details. This pattern is useful when you need to undo changes made to an object or when you need to save and restore the state of an object for later use.
